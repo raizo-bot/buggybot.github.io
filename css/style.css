@@ -11,9 +11,14 @@ body {
     padding: 0;
 }
 
-.iconimage {
-    height:20%;
-    width: 20%;
+header {
+    background:#1A1D1E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buggyimage {
+    height:3.5%;
+    width: 3.5%;
 }
 
 .nav {
@@ -21,12 +26,16 @@ body {
     padding-top:1%;
     padding-bottom:1%;
     color:#fafafa;
-    font-size:30px;
+    font-size:35px;
 }
 
 .navlink {
     color:#fafafa;
     text-decoration:none;
+}
+
+.addToServer:hover {
+    text-decoration: underline;
 }
 
 .padding_example {
@@ -40,10 +49,12 @@ body {
     display:inline-block;
     padding-left: 1%;
     padding-right: 1%;
+    text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.2);
 }
 
 .exampleimage {
     height:100%;
     width:100%;
     border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
