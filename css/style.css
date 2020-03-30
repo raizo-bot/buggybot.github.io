@@ -27,15 +27,14 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color:#ffffff;
     text-decoration:none;
-    background: #7289DA;
     border-radius:5px;
     padding:10px;
     transition:0.3s;
+    border: 2px solid #ffffff;
 }
 
 .addlink:hover {
-    background: #5F73B5;
-    font-size:40px;
+    font-size:35px;
 }
 
 .logo {
