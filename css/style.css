@@ -42,9 +42,18 @@ header {
     background: #99AAB5;
 }
 
+.padding_first {
+    
+    padding-top:20%;
+    
+}
 .padding_example {
-    padding-top:10%;
-    padding-bottom:3%;
+    margin-top:35%;
+}
+
+.padding_last {
+    margin-top:40%;
+    margin-bottom:20%;
 }
 
 .example {

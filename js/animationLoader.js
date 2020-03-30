@@ -1,3 +1,4 @@
+var div2 = document.getElementById("div2");
 var div3 = document.getElementById("div3");
 var div4 = document.getElementById("div4");
 var div5 = document.getElementById("div5");
@@ -15,6 +16,7 @@ function isVisible (ele) {
   }
 
 function addAnimation() {
+    if(isVisible(div2)) {div2.classList.add("fadeInRight")};
     if(isVisible(div3)) {div3.classList.add("fadeInLeft")};
     if(isVisible(div4)) {div4.classList.add("fadeInRight")};
     if(isVisible(div5)) {div5.classList.add("fadeInLeft")};
