@@ -40,6 +40,16 @@ body {
     font-size:40px;
 }
 
+.logo {
+    font-size:30px;
+    padding-bottom:2%;
+    position:fixed;
+    left:0;
+    right:0;
+    z-index:10;
+    background:#23272A;
+}
+
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -51,16 +61,16 @@ body {
 
 .padding_first {
     
-    padding-top:5%;
+    padding-top:25%;
     
 }
 .padding_example {
-    margin-top:35%;
+    margin-top:25%;
 }
 
 .padding_last {
     margin-top:40%;
-    margin-bottom:20%;
+    margin-bottom:10%;
 }
 
 .example {
