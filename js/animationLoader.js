@@ -4,6 +4,11 @@ var div4 = document.getElementById("div4");
 var div5 = document.getElementById("div5");
 var div6 = document.getElementById("div6");
 
+function isMobile() {
+  try{ document.createEvent("TouchEvent"); return true; }
+  catch(e){ return false; }
+}
+
 function isVisible (ele) {
     const { top, bottom } = ele.getBoundingClientRect();
     const vHeight = (window.innerHeight || document.documentElement.clientHeight);
@@ -15,10 +20,10 @@ function isVisible (ele) {
   }
 
 function addAnimation() {
-  if (/Mobi|Android/i.test(navigator.userAgent)) {
+  if (isMobile()) {
     return;
   }
-  else {
+  else if (!isMobile()) {
     if(isVisible(div2)) {div2.classList.add("fadeInRightBig")};
     if(isVisible(div3)) {div3.classList.add("fadeInLeftBig")};
     if(isVisible(div4)) {div4.classList.add("fadeInRightBig")};
