@@ -12,13 +12,11 @@ body {
 }
 
 header {
-    background:#1A1D1E;
+    background:#2C2F33;
+    color:#fafafa;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.buggyimage {
-    height:3.5%;
-    width: 3.5%;
+    position:fixed;
+    min-width:100%;
 }
 
 .nav {
@@ -26,21 +24,23 @@ header {
     padding-top:1%;
     padding-bottom:1%;
     color:#fafafa;
-    font-size:35px;
+    font-size:30px;
 }
 
 .navlink {
     color:#fafafa;
     text-decoration:none;
+    background: #7289DA;
+    border-radius:5px;
+    padding:7px;
 }
 
-.addToServer:hover {
-    text-decoration: underline;
+.navlink:hover {
+    background: #99AAB5;
 }
 
 .padding_example {
     padding-top:15%;
-    padding-bottom:10%;
 }
 
 .example {
