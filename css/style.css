@@ -3,7 +3,7 @@ html {
     padding: 0;
     background:#23272A;
     text-align:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -12,34 +12,30 @@ body {
     overflow-x:hidden;
 }
 
-header {
-    background:#2C2F33;
-    color:#fafafa;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position:fixed;
-    min-width:100%;
+.add {
     z-index: 10;
-}
-
-.nav {
+    position:fixed;
     display:inline-block;
-    padding-top:1%;
-    padding-bottom:1%;
-    color:#fafafa;
+    padding:2%;
+    color:#ffffff;
     font-size:30px;
 }
 
-.navlink {
-    color:#fafafa;
+.addlink {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#ffffff;
     text-decoration:none;
     background: #7289DA;
     border-radius:5px;
-    padding:7px;
+    padding:10px;
     transition:0.3s;
+    border:2px solid #23272A;
 }
 
-.navlink:hover {
+.addlink:hover {
     background: #99AAB5;
+    border:2px solid #ffffff;
+    font-size:40px;
 }
 
 .padding_first {
@@ -57,17 +53,21 @@ header {
 }
 
 .example {
-    color:#fafafa;
+    color:#ffffff;
     font-size:40px;
     display:inline-block;
     padding-left: 1%;
     padding-right: 1%;
-    text-shadow: 4px 8px 4px  rgba(0, 0, 0, 0.2);
+}
+
+.small {
+    font-size:20px;
+    color:gray;
 }
 
 .exampleimage {
-    height:100%;
-    width:100%;
+    height:110%;
+    width:110%;
     border-radius:5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
