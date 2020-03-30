@@ -15,10 +15,15 @@ function isVisible (ele) {
   }
 
 function addAnimation() {
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    return;
+  }
+  else {
     if(isVisible(div2)) {div2.classList.add("fadeInRightBig")};
     if(isVisible(div3)) {div3.classList.add("fadeInLeftBig")};
     if(isVisible(div4)) {div4.classList.add("fadeInRightBig")};
     if(isVisible(div5)) {div5.classList.add("fadeInLeftBig")};
     if(isVisible(div6)) {div6.classList.add("fadeInRightBig")};
+  }
 }
 
