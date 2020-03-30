@@ -30,7 +30,7 @@ cursor();
 document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() { 
 var alpha = Math.min(0.1 * $(this).scrollTop() / 200, 1);
-var channel = Math.round(alpha * 150);
+var channel = Math.round(alpha * 130);
 var red = 5 + channel;
 var green = channel;
 var blue = 15 + channel;
