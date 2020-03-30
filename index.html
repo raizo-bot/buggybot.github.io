@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
         <title>Buggy | Discord Bot</title>
     </head>
-    <body>
-        <header>
+    <body onscroll="addAnimation()">
+        <header id="baum" class="animated fadeInDown">
             <div class="nav">
                 <b>BUGGY</b>&nbsp;
                 <a class="navlink" href="https://discordapp.com/oauth2/authorize?client_id=597753059279503369&scope=bot&permissions=8">
@@ -14,7 +16,7 @@
                 </a>
             </div>
         </header>
-        <div class="padding_example">
+        <div id="div1" class="padding_example animated fadeInLeft">
             <div style="vertical-align: bottom"class="example">
                 The most likeable bot<p>on the internet!</p>
             </div>
@@ -23,7 +25,7 @@
             </div>
         </div>
 
-        <div class="padding_example">
+        <div id="div2" class="padding_example  animated fadeInRight">
             <div style="vertical-align: bottom"class="example">
                 <img class="exampleimage" src="assets/mee6insult.png">
             </div>
@@ -32,7 +34,7 @@
             </div>
         </div>
 
-        <div class="padding_example">
+            <div id="div3" class="padding_example animated">
             <div style="vertical-align: bottom"class="example">
                 The most likeable bot<p>on the internet!</p>
             </div>
@@ -40,7 +42,7 @@
                 <img class="exampleimage" src="assets/mee6insult.png">
             </div>
 
-            <div class="padding_example">
+            <div id="div4" class="padding_example  animated">
                 <div style="vertical-align: bottom"class="example">
                     <img class="exampleimage" src="assets/mee6insult.png">
                 </div>
@@ -49,7 +51,7 @@
                 </div>
             </div>
     
-            <div class="padding_example">
+            <div id="div5" class="padding_example animated">
                 <div style="vertical-align: bottom"class="example">
                     The most likeable bot<p>on the internet!</p>
                 </div>
@@ -57,7 +59,7 @@
                     <img class="exampleimage" src="assets/mee6insult.png">
                 </div>
 
-                <div class="padding_example">
+                <div id="div6" class="padding_example animated">
                     <div style="vertical-align: bottom"class="example">
                         <img class="exampleimage" src="assets/mee6insult.png">
                     </div>
@@ -66,7 +68,7 @@
                     </div>
                 </div>
         
-                <div class="padding_example">
+                <div id="div7" class="padding_example animated">
                     <div style="vertical-align: bottom"class="example">
                         The most likeable bot<p>on the internet!</p>
                     </div>
@@ -74,5 +76,6 @@
                         <img class="exampleimage" src="assets/mee6insult.png">
                     </div>
         </div>
+        <script src="js/animationLoader.js"></script>
     </body>
 </html>
