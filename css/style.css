@@ -87,9 +87,11 @@ body {
     margin-top:15%;
 }
 
-.padding_last {
-    margin-top:15%;
+.padding_contact {
+    margin-top:5%;
     margin-bottom:10%;
+    font-size:30px;
+    color:darkgray;
 }
 
 .example {
