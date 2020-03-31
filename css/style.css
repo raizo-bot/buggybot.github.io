@@ -34,7 +34,19 @@ body {
 }
 
 .addlink:hover {
-    font-size:35px;
+    background:#ffffff;
+    color:#000000;
+    border: 2px solid #000000;
+}
+
+.nav {
+    font-size: 25px;
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.nav:hover {
+    color:darkgray;
 }
 
 .logo {
@@ -56,17 +68,27 @@ body {
     }
   }
 
+.heading {
+    margin-top:20%;
+    font-size:45px;
+}
+
 .padding_first {
     
     padding-top:25%;
     
 }
+
+.padding_underheader {
+    margin-top:7%;
+}
+
 .padding_example {
-    margin-top:20%;
+    margin-top:15%;
 }
 
 .padding_last {
-    margin-top:20%;
+    margin-top:15%;
     margin-bottom:10%;
 }
 

@@ -3,6 +3,8 @@ var div3 = document.getElementById("div3");
 var div4 = document.getElementById("div4");
 var div5 = document.getElementById("div5");
 var div6 = document.getElementById("div6");
+var div7 = document.getElementById("div7");
+var div8 = document.getElementById("div8");
 
 function isMobile() {
   try{ document.createEvent("TouchEvent"); return true; }
@@ -29,6 +31,8 @@ function addAnimation() {
     if(isVisible(div4)) {div4.classList.add("fadeInRightBig")};
     if(isVisible(div5)) {div5.classList.add("fadeInLeftBig")};
     if(isVisible(div6)) {div6.classList.add("fadeInRightBig")};
+    if(isVisible(div7)) {div7.classList.add("fadeInRightBig")};
+    if(isVisible(div8)) {div8.classList.add("fadeInRightBig")};
   }
 }
 
