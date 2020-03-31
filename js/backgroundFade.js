@@ -8,5 +8,6 @@ var blue = 15 + channel;
 document.body.style.background = 'rgb(' + red + ',' + green + ',' + blue + ')'; 
 document.getElementById("html").style.background = 'rgb(' + red + ',' + green + ',' + blue + ')'; 
 document.getElementById("logo").style.background = 'rgb(' + red + ',' + green + ',' + blue + ')';
+document.getElementById("biscuits").style.background = 'rgb(' + red + ',' + green + ',' + blue + ')';
 });
 });
