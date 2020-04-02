@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener('scroll', function() { 
+    window.addEventListener("scroll", function() { 
 var alpha = Math.min(0.1 * $(this).scrollTop() / 1000, 0.5);
 var channel = Math.round(alpha * 80);
 var red = 5 + channel;
