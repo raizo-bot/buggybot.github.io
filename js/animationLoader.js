@@ -27,14 +27,14 @@ function addAnimation() {
     return;
   }
   else if (!isMobile()) {
-    if(isVisible(div2)) {div2.classList.add("fadeInRightBig")};
-    if(isVisible(div3)) {div3.classList.add("fadeInLeftBig")};
-    if(isVisible(div4)) {div4.classList.add("fadeInRightBig")};
-    if(isVisible(div5)) {div5.classList.add("fadeInLeftBig")};
-    if(isVisible(div6)) {div6.classList.add("fadeInRightBig")};
-    if(isVisible(div7)) {div7.classList.add("fadeInRightBig")};
-    if(isVisible(div8)) {div8.classList.add("fadeInRightBig")};
-    if(isVisible(div9)) {div9.classList.add("fadeInRightBig")};
+    if(isVisible(div2)) {div2.classList.add("fadeInRightBig");}
+    if(isVisible(div3)) {div3.classList.add("fadeInLeftBig");}
+    if(isVisible(div4)) {div4.classList.add("fadeInRightBig");}
+    if(isVisible(div5)) {div5.classList.add("fadeInLeftBig");}
+    if(isVisible(div6)) {div6.classList.add("fadeInRightBig");}
+    if(isVisible(div7)) {div7.classList.add("fadeInRightBig");}
+    if(isVisible(div8)) {div8.classList.add("fadeInRightBig");}
+    if(isVisible(div9)) {div9.classList.add("fadeInRightBig");}
   }
 }
 

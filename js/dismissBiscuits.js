@@ -1,4 +1,4 @@
 function dismissBiscuits() {
     let biscuits = document.getElementById("biscuits");
-    biscuits.classList.add("hidden")
+    biscuits.classList.add("hidden");
 }
