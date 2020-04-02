@@ -16,7 +16,7 @@ function writeBuggy() {
     setTimeout( () => b.innerHTML = "Bu", 12000);
     setTimeout( () => b.innerHTML = "B", 12400);
     setTimeout( () => writeBuggy(), 12400);
-};
+}
 
 function cursor() {
     setTimeout( () => c.innerHTML = "‎‎‎‎‎‎‏‏‎ ‎", 0);
